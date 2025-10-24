@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -48,7 +49,7 @@ fun ActivitasPertama(modifier: Modifier){
         Spacer(modifier = Modifier.height(height = 25.dp))
         Card (
             modifier = Modifier
-                .fillMaxSize(fraction = 1f)
+                .fillMaxWidth(fraction = 1f)
                 .padding(all = 12.dp),
             colors = CardDefaults.cardColors(
                 containerColor = Color.DarkGray
