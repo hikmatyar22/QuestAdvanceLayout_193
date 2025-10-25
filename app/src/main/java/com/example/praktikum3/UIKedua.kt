@@ -107,6 +107,14 @@ fun ActivitasKedua(modifier: Modifier){
             fontWeight = FontWeight.Bold,
             color = Color.Gray,
         )
+        Spacer(modifier = Modifier.height(height = 25.dp))
+        Text(
+            text = stringResource(id = R.string.text),
+            fontSize = 20.sp,
+            fontFamily = FontFamily.Serif,
+            fontWeight = FontWeight.Bold,
+            color = Color.White,
+        )
 
     }
 
