@@ -57,6 +57,15 @@ fun ActivitasKedua(modifier: Modifier){
         )
         Spacer(modifier = Modifier.height(height = 5.dp))
         Row(){
+            val gmail = painterResource(id = R.mipmap.gmail)
+            Image(
+                painter = gmail,
+                contentDescription = null,
+                modifier = Modifier
+                    .size (size = 50.dp)
+                    .padding(all = 5.dp)
+            )
+
 
         }
 
