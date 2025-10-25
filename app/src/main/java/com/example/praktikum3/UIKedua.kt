@@ -44,6 +44,17 @@ fun ActivitasKedua(modifier: Modifier){
             .padding(top = 50.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ){
+        val profil = painterResource(id = R.drawable.profil)
+        Image(
+            painter = profil,
+            contentDescription = null,
+            modifier = Modifier
+                .size(size = 180.dp)
+                .clip(CircleShape)
+                .border(2.dp, Color.White, CircleShape)
+                .padding(2.dp),
+            contentScale = ContentScale.Crop
+        )
 
     }
 
