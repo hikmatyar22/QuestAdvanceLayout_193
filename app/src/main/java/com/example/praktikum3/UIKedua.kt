@@ -99,6 +99,14 @@ fun ActivitasKedua(modifier: Modifier){
             fontWeight = FontWeight.Bold,
             color = Color.White,
         )
+        Text(
+            text = stringResource(id = R.string.email),
+            fontSize = 18.sp,
+            fontFamily = FontFamily.Serif,
+            fontStyle = FontStyle.Italic,
+            fontWeight = FontWeight.Bold,
+            color = Color.Gray,
+        )
 
     }
 
