@@ -55,6 +55,10 @@ fun ActivitasKedua(modifier: Modifier){
                 .padding(2.dp),
             contentScale = ContentScale.Crop
         )
+        Spacer(modifier = Modifier.height(height = 5.dp))
+        Row(){
+
+        }
 
     }
 
