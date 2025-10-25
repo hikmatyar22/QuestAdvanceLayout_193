@@ -6,4 +6,12 @@
     <string name="alamat">Pontianak, Kalimantan Barat</string>
     <string name="copy">Copyright, 2025</string>
 
+    <string name="email">faa.iqq</string>
+    <string name="text">Saya Seorang Front End Develover</string>
+    <string name="github">Github</string>
+    <string name="porto">Portofolio</string>
+    <string name="sekolah">Riwayat Pendidikan</string>
+    <string name="bawah">25 Oktober 2025, Hikmatyar Alghifary</string>
+
+
 </resources>
