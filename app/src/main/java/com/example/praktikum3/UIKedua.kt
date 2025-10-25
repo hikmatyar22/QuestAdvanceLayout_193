@@ -255,6 +255,19 @@ fun ActivitasKedua(modifier: Modifier){
                 )
             }
         }
+        Spacer(modifier = Modifier.height(height = 100.dp))
+
+        Text(
+            text = stringResource(id = R.string.bawah),
+            color = Color.Gray,
+            fontSize = 14.sp,
+            fontFamily = FontFamily.Serif,
+            fontStyle = FontStyle.Italic,
+            textAlign = TextAlign.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(bottom = 10.dp)
+        )
     }
 
 }
