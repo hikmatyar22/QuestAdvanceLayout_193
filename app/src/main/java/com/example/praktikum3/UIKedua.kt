@@ -209,7 +209,52 @@ fun ActivitasKedua(modifier: Modifier){
                 )
             }
         }
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(fraction = 1f)
+                .padding(horizontal = 15.dp, vertical = 7.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Gray
+            ),
+            shape = RoundedCornerShape(35.dp),
+        ) {
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 10.dp, vertical = 8.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                val ket3 = painterResource(id = R.mipmap.github)
+                Image(
+                    painter = ket3,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(65.dp)
+                        .clip(CircleShape)
+                )
+                Spacer(modifier = Modifier.width(width = 15.dp))
+                Text(
+                    text = stringResource(id = R.string.github),
+                    fontSize = 15.sp,
+                    fontFamily = FontFamily.Serif,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White,
+                    modifier = Modifier
+                        .weight(1f)
+                        .padding(start = 10.dp),
+                )
 
+                val play = painterResource(id = R.mipmap.arah)
+                Image(
+                    painter = play,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(35.dp)
+                        .padding(end = 10.dp)
+                )
+            }
+        }
     }
 
 }
