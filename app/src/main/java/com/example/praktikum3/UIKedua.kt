@@ -73,6 +73,14 @@ fun ActivitasKedua(modifier: Modifier){
                     .size (size = 50.dp)
                     .padding(all = 5.dp)
             )
+            val instagram = painterResource(id = R.mipmap.ig)
+            Image(
+                painter = instagram,
+                contentDescription = null,
+                modifier = Modifier
+                    .size (size = 50.dp)
+                    .padding(all = 5.dp)
+            )
 
 
         }
